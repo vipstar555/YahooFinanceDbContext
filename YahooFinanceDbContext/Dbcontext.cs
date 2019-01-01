@@ -7,7 +7,9 @@ namespace System.Data
 {
     public class YahooFinanceDbContext : DbContext
     {
-        public YahooFinanceDbContext() : base(("name=YahooFinanceDbContext"))
+        const string connectString = @"data source=(LocalDb)\v11.0;initial catalog=FinanceEntityFramework.Finance.CodeListDbContext;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework";
+
+        public YahooFinanceDbContext() : base(connectString)
         {
 
         }
