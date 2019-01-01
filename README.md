@@ -1,0 +1,2 @@
+# YahooFinanceDbContext
+SQLServer⇔EntityFramework⇔YahooFinanceデータを行うためのクラス。他の株関連プロジェクトに埋め込む用
